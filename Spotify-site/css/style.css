@@ -1,0 +1,249 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.menu-principal{
+    background-color: black;
+    height: 80px;
+}
+
+main{
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-1{
+    width: 1500px;
+    text-align: center;
+}
+
+.logo{
+    float: left;
+    width: 50%;
+}
+
+.logo img{
+    margin-top: 20px;
+    width: 15%
+}
+
+.menu{
+    width: 45%;
+    float: right;
+    margin-top: 10px;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 30px;
+    float: left;
+    color: white;
+    font-size: 20px;
+}
+
+.menu ul li a{
+    color: white;
+    font:bold 15px Arial, sans-serif;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color: #1ed760;
+}
+
+
+.banner-maior{
+    background-color: rgb(41, 65, 171);
+    background-image: url('../img/bursts.svg');
+    background-size: 175%;
+    background-position: 46% 4%;
+    background-repeat: no-repeat;
+    min-height: 845px;
+}
+
+.banner{
+    width: 800px;
+    box-sizing: border-box;
+    text-indent: -19.3em;
+    transform: translate(125px, 0px);
+    margin-left: 30%;
+    display: block;
+    padding-top: 100px;
+}
+
+.titulo h1{
+    font: bold 143px Arial, sans-serif;
+    line-height: 166px;
+    padding-bottom: 40px;
+    color: #1ed760;
+    margin: 0;
+    letter-spacing: -0.04em !important;
+}
+
+.banner p{
+    font: normal 18px Arial, sans-serif;
+    color: #1ed760;
+    text-align: center;
+    margin: 0;
+}
+
+.banner button{
+    background-color: #1ed760;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    border:none;
+    margin-top:5%;
+    font: bold 13px Arial, sans-serif;
+    color:rgb(41, 65, 171);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.banner button:hover{
+    height: 55px;
+    width: 210px;
+}
+
+.button-spotify{
+    text-align: center; 
+}
+
+.col-ft{
+    height: 400px;
+    width: auto;
+    background-color: black;
+}
+
+.content{
+    float: left;
+    padding: 80px 0 50px;
+    font-size: 16px;
+    margin-left:15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-ft img{
+    float:left;
+    width: 10%;
+    
+}
+
+.col-3{
+    display: inline-block;
+    width: 15%;
+    float:left;
+    
+}
+
+.col-3 h4{
+    color: #919496;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 48px;
+    line-height: 1.4px;
+    letter-spacing: .08em;
+    font-weight:bold;
+}
+
+.col-3 ul li{
+    margin-top: 25px;
+    text-align: left;
+}
+
+.col-3 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.col-3 ul li a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+
+.redes-sociais{
+    margin-left: 10%;
+    float: left;
+    width: 230px;
+}
+
+.circulo{
+    background-color: #222326;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.icon-insta img{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.icon-insta a:hover{
+    color: #1ed760;
+}
+
+.icon-twitter img{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.icon-face img{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.footer-2{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+
+.politics-link{
+    margin-left: 14%;
+    float:left; 
+}
+
+.politics-link a{
+    color: #919496;
+    font: normal 12px Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.politics-link a:hover{
+    color: #1ed760;
+}
+
+.copyright-country{
+    float:right;
+    margin-right: 17%;
+}
+
+.copyright-country ul li{
+    color: #919496;
+    font: normal 12px Arial, sans-serif;
+    list-style: none;
+}
+
+.copyright-country ul li a{
+    text-decoration: none;
+    color: #919496;
+    float: right;
+    
+}
+
+.copyright-country ul li a:hover{
+    color: #1ed760
+    
+}
